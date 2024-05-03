@@ -1,0 +1,65 @@
+@media screen and (max-width:1110px) {
+    .formulario { 
+        flex-direction: column;
+    
+    }
+    .botones-formulario {
+        justify-content: left;
+        margin: 20px;
+       
+    }
+
+    .textarea { 
+        margin: 10px;
+    }
+}
+    
+
+@media screen and (max-width:890px) {
+  
+    .ubicacion { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+ 
+    .textoubi { 
+       width: 100%;
+       align-items: center;
+    }
+
+}
+
+@media screen and (max-width:785px) {
+    .textarea { 
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .mapa { 
+        width: 80%;
+    }
+
+    .indicaciones-contacto { 
+        font-size: 20px;
+    }
+
+    .textoubi { 
+        font-size: 20px;
+    }
+}
+
+    @media screen and (max-width:360px) {
+       
+        .formulario {
+            font-size: 15px;
+        }
+
+
+}
+  
+
+    

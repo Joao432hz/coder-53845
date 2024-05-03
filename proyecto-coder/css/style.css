@@ -1,0 +1,785 @@
+/**----------RESET---------**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/**------HEADER OLD FLEX----**/
+
+
+header a img {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.navbar {
+    padding: 0px;
+        
+}
+
+.container-fluid {
+    background-color: rgba(23, 235, 210, 0.985);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+.nav-link {
+    font-size: 25px;
+    color: white;
+
+}
+
+.nav-link:hover {
+    font-weight: 700;
+    color: white;
+}
+
+button .navbar-toggler {
+    color: white;
+}
+
+/**------MAIN----**/
+/**section**/
+
+.carrusel {
+    width: 100%;
+    margin: 0;
+}
+
+/**MAIN INDEX**/
+/**SECCION UNO**/
+
+.seccionuno {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.seccionuno div {
+    width: 50%;
+    margin: 20px;
+}
+
+.seccionuno div h2 {
+    font-size: 30px;
+}
+
+.seccionuno div p {
+    font-size: 20px;
+}
+
+.seccionuno img {
+    width: 600px;
+    height: 400px;
+}
+
+/** SECCION 2**/
+
+.secciondos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.secciondos div {
+    width: 50%;
+    margin: 20px;
+}
+
+.secciondos div h2 {
+    font-size: 30px;
+}
+
+.secciondos div p {
+    font-size: 20px;
+}
+
+.secciondos img {
+    width: 600px;
+    height: 400px;
+}
+
+/** SECCION 3**/
+
+.secciontres {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.secciontres div {
+    width: 50%;
+    margin: 20px
+}
+
+.secciontres div h2 {
+    font-size: 30px;
+}
+
+.secciontres div p {
+    font-size: 20px;
+}
+
+.secciontres img {
+    width: 600px;
+    height: 400px;
+}
+
+
+
+
+
+
+/**------FOOTER----**/
+
+footer {
+    background-color: rgba(23, 235, 210, 0.985);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+
+
+footer section div ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+
+}
+
+footer section div ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: helvetica;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+}
+
+.imagenfiscal {
+    width: 60px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.opciones {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.sellobureauveritas {
+    width: 150px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+
+.textopie {
+    background-color: rgba(23, 235, 210, 0.985);
+    font-family: helvetica;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+   
+
+}
+
+/** MAIN NOSOTROS**/
+
+.portada-nosotros { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.portada-nosotros img {
+    width: 40%;
+}
+
+.texto-nosotros {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+    
+
+
+
+
+/** MAIN SERVICIOS **/
+
+.grid-container {
+    border: solid 20px color red;
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "primer-item primer-item tercer-item"
+        "segundo-item cuarto-item cuarto-item"
+        "segundo-item quinto-item sexto-item"
+        "septimo-item octavo-item sexto-item";
+    margin: 50px;
+    
+}
+
+.primer-item {
+    grid-column: 1/3;
+    background-image: url(../img/primeritemservicios.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+
+
+}
+
+
+.segundo-item {
+    grid-row: 2/4;
+    background-image: url(../img/segundo-item-servicios-desinfectacion.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.tercer-item {
+    background-image: url(../img/tercer-item-servicio-limpieza-alfombra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.cuarto-item {
+    grid-column: 2/4;
+    background-image: url(../img/cuartoitemsrvicioscortecesped.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.quinto-item {
+
+    background-image: url(../img/quinto-item-servicios-limpieza-labs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+   
+
+}
+
+.sexto-item {
+    background-image: url(../img/sexto-item-servicios-limpieza-vidrios.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    grid-row: 3/5;
+    color: white;
+
+}
+
+
+.septimo-item {
+    background-image: url(../img/servicios-insumos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 4/5;
+    color: black;
+}
+
+
+.octavo-item {
+    background-image: url(../img/octavo-item-servicios-limpiezatanque.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-row: 4/5;
+    color: white;
+}
+
+.grid-item {
+    border: solid 2px;
+    background-color: bisque;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+}
+
+.grid-item h3 {
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: helvetica;
+    margin: 10px;
+
+
+
+}
+
+/* MAIN EQUIPAMIENTO*/
+
+
+main section { 
+    display: flex;
+    margin: 10px;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+.item-tarjeta { 
+    border: solid 2px;
+    margin: 10px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    
+    
+}
+
+.item-tarjeta img { 
+   width: 250px;
+   height: 250px;
+   
+} 
+
+.item-tarjeta h2 { 
+    font-size: 25px;
+}
+
+.item-tarjeta p {
+    margin: 10px;
+    margin: 10px 10px 30px 10px;
+}
+
+.item-tarjeta a { 
+    padding: 10px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    border: 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+   
+    }
+
+
+
+
+    
+/** RESPONSIVE - Media query INDEX**/
+
+@media screen and (max-width:1110px) {
+    .seccionuno {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    
+    .seccionuno div {
+        width: 50%;
+        margin: 20px;
+    }
+    
+    .seccionuno div h2 {
+        font-size: 25px;
+    }
+    
+    .seccionuno div p {
+        font-size: 15px;
+    }
+    
+    .seccionuno img {
+        width: 600px;
+        height: 400px;
+    }
+    
+    /** SECCION 2**/
+    
+    .secciondos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    
+    .secciondos div {
+        width: 50%;
+        margin: 20px;
+    }
+    
+    .secciondos div h2 {
+        font-size: 25px;
+    }
+    
+    .secciondos div p {
+        font-size: 15px;
+    }
+    
+    .secciondos img {
+        width: 600px;
+        height: 400px;
+    }
+    
+    /** SECCION 3**/
+    
+    .secciontres {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    
+    .secciontres div {
+        width: 50%;
+        margin: 20px
+    }
+    
+    .secciontres div h2 {
+        font-size: 25px;
+    }
+    
+    .secciontres div p {
+        font-size: 15px;
+    }
+    
+    .secciontres img {
+        width: 600px;
+        height: 400px;
+    }
+    
+
+
+}
+
+@media screen and (max-width:900px) {
+    .seccionuno {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    
+    .seccionuno div {
+        width: 100%;;
+        margin: 20px;
+    }
+    
+    .seccionuno div h2 {
+        font-size: 25px;
+    }
+    
+    .seccionuno div p {
+        font-size: 15px;
+    }
+    
+    .seccionuno img {
+        width: 600px;
+        height: 400px;
+    }
+    
+    /** SECCION 2**/
+    
+    .secciondos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    
+    .secciondos div {
+        width:100%;
+        margin: 20px;
+    }
+    
+    .secciondos div h2 {
+        font-size: 25px;
+    }
+    
+    .secciondos div p {
+        font-size: 15px;
+    }
+    
+    .secciondos img {
+        width: 600px;
+        height: 400px;
+    }
+    
+    /** SECCION 3**/
+    
+    .secciontres {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px; 
+        padding: 20px;
+    }
+    
+    
+    .secciontres div {
+        width: 100% ;
+    }
+    
+    .secciontres div h2 {
+        font-size: 25px;
+    }
+    
+    .secciontres div p {
+        font-size: 15px;
+    }
+    
+    .secciontres img {
+        width: 600px;
+        height: 400px;
+    }    
+
+
+    .opciones .nav-link {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .opciones .nav-link {
+        font-size: 12px;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .opciones ul {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        
+
+    }
+}
+
+@media screen and (max-width:650px) {
+    .seccionuno img {
+        width: 80%;
+        height: 60%;
+    }
+
+    .secciondos img {
+        width: 80%;
+        height: 60%;
+
+    }.secciontres img {
+        width: 80%;
+        height: 60%;
+    }
+
+} 
+
+@media screen and (max-width:400px) { 
+    .textopie {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .carousel { 
+        display: none;
+    }
+}
+
+/*MAIN CONTACTOS*/
+
+.ubicacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.textoubi {
+    width: 50%;
+    font-size: 25px;
+}
+
+.indicaciones-contacto { 
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+
+.tipo-de-consulta { 
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+
+.formulario {
+    font-size: 20px;
+    display: flex ;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.botones-formulario { 
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-right: 730px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/** RESPONSIVE - Media query CONTACTO**/
+@media screen and (max-width:1110px) {
+    .formulario { 
+        flex-direction: column;
+    
+    }
+    .botones-formulario {
+        justify-content: left;
+        margin: 20px;
+       
+    }
+
+    .textarea { 
+        margin: 10px;
+    }
+}
+    
+
+@media screen and (max-width:890px) {
+  
+    .ubicacion { 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+ 
+    .textoubi { 
+       width: 100%;
+       align-items: center;
+    }
+
+}
+
+@media screen and (max-width:785px) {
+    .textarea { 
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .mapa { 
+        width: 80%;
+    }
+
+    .indicaciones-contacto { 
+        font-size: 20px;
+    }
+
+    .textoubi { 
+        font-size: 20px;
+    }
+}
+
+    @media screen and (max-width:360px) {
+       
+        .formulario {
+            font-size: 15px;
+        }
+
+
+}
+  
+
+    

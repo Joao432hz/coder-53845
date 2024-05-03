@@ -1,0 +1,24 @@
+@media screen and (max-width:610px) {
+    
+.portada-nosotros { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.portada-nosotros img {
+    width: 80%;
+}
+
+.texto-nosotros {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 400;
+
+
+}
+}

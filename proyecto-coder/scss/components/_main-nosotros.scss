@@ -1,0 +1,22 @@
+
+.portada-nosotros { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.portada-nosotros img {
+    width: 600px;
+}
+
+.texto-nosotros {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500;
+
+
+}

@@ -1,0 +1,171 @@
+@media screen and (max-width:1110px) {
+    .articulo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    
+    
+    .articulo div {
+        width: 50%;
+        margin: 20px;
+    }
+    
+    .artitulo div h2 {
+        font-size: 25px;
+    }
+    
+    .articulo div p {
+        font-size: 15px;
+    }
+
+    .artitulo img{
+        width: 600px;
+        height: 400px;
+    }
+
+    .logo a { 
+        width: 50%;
+    }
+    
+}
+
+
+
+@media screen and (max-width:900px) {
+    .articulo {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        padding: 20px;
+    }
+    .articulo div {
+        width: 80%;
+        margin: 15%;
+    }
+    
+    .articulo-dos {
+        flex-direction: column-reverse;
+    
+}
+
+.opciones .nav-link {
+    font-size: 20px;
+    display: flex;
+    margin: 5px;
+    padding: 0px;
+}
+}
+
+
+
+
+@media screen and (max-width:750px) {
+
+
+
+    .opciones .nav-link {
+        font-size: 15px;
+        display: flex;
+        margin: 5px;
+        padding: 0px;
+    }
+
+
+}
+
+@media screen and (max-width:650px) {
+    .opciones .nav-link {
+       
+        font-size: 12px;
+        display: flex;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .opciones ul {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+  
+}
+
+
+@media screen and (max-width:630px) {
+
+    .articulo {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .articulo div {
+        width: 80%;
+        margin: 10px;
+
+    }
+    .articulo div h2 {
+        font-size: 20px;
+    }
+
+    
+    .articulo img{
+        width: 80%;
+        height: 60%;
+    }
+
+}
+
+@media screen and (max-width:470px) { 
+    header a img {
+        width: 250px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+    
+    }
+
+
+}
+
+
+
+@media screen and (max-width:400px) { 
+    .textopie {
+        font-size: 12px;
+    }
+
+    .articulo div h2 {
+        font-size: 20px;
+    }
+
+    .articulo div {
+        width: 90%;
+        margin: 5%;
+
+    }
+
+    .articulo {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    header a img {
+        width: 200px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+    
+    }
+
+}
+

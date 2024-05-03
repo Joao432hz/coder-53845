@@ -1,0 +1,22 @@
+
+.articulo {
+    @extend %flex-articulo;
+}
+
+
+.articulo div {
+    @extend %flex-articulo-div;
+}
+
+.articulo div h2 {
+    @extend %flex-articulo-titulo;
+}
+
+.articulo div p {
+    @extend %flex-articulo-parrafo;
+}
+
+.articulo img {
+    @extend %flex-articulo-img;
+    
+}

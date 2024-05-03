@@ -1,0 +1,84 @@
+footer {
+    background-color: $color-principal;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+
+
+footer section div ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+
+}
+
+footer section div ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 200;
+    font-family: helvetica;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+}
+
+.imagenfiscal {
+    width: 60px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    
+
+}
+
+.opciones {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.sellobureauveritas {
+    width: 150px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+   
+}
+
+
+
+.textopie {
+    width: 100%;
+    background-color: $color-principal;
+    font-family: helvetica;
+    font-weight: 600;
+    display: flex;
+
+    
+   
+
+}
+

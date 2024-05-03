@@ -1,0 +1,57 @@
+
+.ubicacion {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.textoubi {
+    width: 50%;
+    font-size: 25px;
+}
+
+.indicaciones-contacto { 
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+
+
+.tipo-de-consulta { 
+    display: flex;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+
+.formulario {
+    font-size: 20px;
+    display: flex ;
+    justify-content: space-around;
+    margin: 20px;
+    align-items: center;
+
+}
+
+.botones-formulario { 
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    margin-right: 730px;
+    margin-bottom: 20px;
+}
+
+.cajaform { 
+    margin: 5px;
+    display: flex;
+  
+}
+

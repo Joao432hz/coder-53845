@@ -1,0 +1,32 @@
+@media screen and (max-width:440px) {
+  .item-tarjeta { 
+        width: 80%;
+        align-items: center;
+    }    
+
+    .item-tarjeta h2 {
+        font-size: 20px;
+    }
+
+    .item-tarjeta p {
+        margin: 10px;
+    }
+    .item-tarjeta img {
+        width: 80%;
+    }
+        
+
+}
+
+@media screen and (max-width:390px){ 
+    .item-tarjeta a { 
+        height: 5%;
+        font-size: 15px;
+        padding: 0px;
+        
+    }
+    .item-tarjeta p {
+        margin: 5px;
+        font-size: 15px;
+} 
+}

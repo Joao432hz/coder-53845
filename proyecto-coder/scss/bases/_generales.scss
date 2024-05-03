@@ -1,0 +1,64 @@
+/**----------RESET---------**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*VARIABLES*/
+$color-principal: rgb(0, 250, 215);
+
+/*LISTAS*/
+$font-size:
+25px,
+30px,
+20px;
+
+/*MAPAS*/
+$boton: (
+    bg-boton:blue, 
+    color-texto: white,
+    ancho: 200px,
+    radio: 10px,
+    alto: 10px,
+    subrayado: none,
+    );
+
+/*EXTEND*/
+%flex-articulo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+%flex-articulo-div {
+    width: 50%;
+    margin: 20px;
+
+
+}
+
+%flex-articulo-titulo {
+    font-size: nth($font-size,2);
+}
+
+%flex-articulo-parrafo {
+    font-size: nth($font-size,3);
+
+}
+
+%flex-articulo-img {
+    width: 600px;
+    height: 400px;
+
+}
+
+/*MIXIN*/
+@mixin flex-tarjetas ($flex, $justify, $wrap, $margin){
+    display: $flex;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    margin: $margin;
+}
